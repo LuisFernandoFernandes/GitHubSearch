@@ -28,3 +28,12 @@
 .card-custom p {
   margin-bottom: 5px;
 }
+
+/* Estilos para resoluções menores */
+@media (max-width: 768px) {
+  .card-custom {
+    width: 90%;
+    max-width: 300px;
+    margin: 1rem;
+  }
+}
