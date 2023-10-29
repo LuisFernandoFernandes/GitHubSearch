@@ -55,3 +55,23 @@ margin-right: 1.25rem;
 .input-group {
   margin-left: 2rem;
 }
+
+/* Ajustes de estilos para resoluções menores */
+@media (max-width: 576px) {
+  .btn-pagination {
+    font-size: 12px; /* Reduz o tamanho do texto */
+    padding: 0.25rem 0.5rem; /* Ajusta o preenchimento do botão */
+  }
+
+  .btn-group {
+    flex-wrap: wrap; /* Permite que os botões sejam exibidos em múltiplas linhas */
+  }
+
+  .pagination {
+    text-align: center; /* Centraliza os botões */
+  }
+
+  .input-group {
+    margin: 0; /* Remove a margem para um layout mais compacto */
+  }
+}
