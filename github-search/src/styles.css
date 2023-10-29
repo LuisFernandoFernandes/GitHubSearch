@@ -1,3 +1,10 @@
+
+.card-custom {
+  width: 90%; /* ou outra porcentagem desejada */
+  max-width: 300px; /* ou outra medida máxima desejada */
+  margin: 1rem; /* ou outra margem desejada */
+}
+
 .card-custom {
   width: 70rem;
   margin-bottom: 1.25rem;
